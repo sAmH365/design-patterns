@@ -7,7 +7,7 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
-public class DefalutTourBuilder implements TourPlanBuilder{
+public class DefaultTourBuilder implements TourPlanBuilder{
 
     private String title;
 

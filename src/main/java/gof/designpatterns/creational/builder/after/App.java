@@ -17,7 +17,7 @@ public class App {
 //            .startDate(LocalDate.of(2021,7,15))
 //            .getPlan();
 
-        TourDirector director = new TourDirector(new DefalutTourBuilder());
+        TourDirector director = new TourDirector(new DefaultTourBuilder());
         TourPlan tourPlan = director.cancunTrip();
         TourPlan tourPlan1 = director.longBeachTrip();
 
